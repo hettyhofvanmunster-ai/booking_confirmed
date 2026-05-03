@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TOP | Booking Confirmed</title>
+</head>
+<body>
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f3f4f6" style="margin:0; padding:0; background-color:#f3f4f6;">
+    <tr>
+        <td align="center" style="padding:0;">
+
+            <!-- HEADER -->
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f3f4f6">
+                <tr>
+                    <td align="center" style="padding:30px 15px 20px 15px;">
+                        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:760px;">
+                            <tr>
+                                <td align="left" valign="middle" style="width:50%;">
+                                    <img src="https://146841274.fs1.hubspotusercontent-eu1.net/hubfs/146841274/TOP-logo_HD%20TOP%20Website-1.png" style="max-width:95px; display:block; border:0;" alt="TOP logo">
+                                </td>
+                                <td align="right" valign="middle" style="width:50%;">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                                        <tr>
+                                            <td style="padding-right:12px;" valign="middle">
+                                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="border:2px solid #d1d5db; border-radius:10px;">
+                                                    <tr>
+                                                        <td align="center" valign="middle" style="width:46px; height:46px; font-size:22px; color:#006DB6; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                                            ☎
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td align="left" valign="middle">
+                                                <a href="tel:+31102831900" style="font-size:14px; line-height:20px; color:#334155; font-weight:700; text-decoration:none; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                                    +31 (10) 283 1900
+                                                </a><br>
+                                                <a href="mailto:top@top.nl" style="font-size:14px; line-height:20px; color:#64748b; text-decoration:none; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                                    top@top.nl
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- CONTENT WRAPPER -->
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:760px;">
+                <tr>
+                    <td>
+
+                        <!-- TOP BAR -->
+                        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-radius:18px 18px 0 0; overflow:hidden;">
+                            <tr>
+                                <td align="center" style="background:#006DB6; padding:42px 20px; text-align:center;">
+                                    <div style="font-size:15px; line-height:22px; color:#ffffff; font-weight:700; text-transform:uppercase; letter-spacing:1px; margin-bottom:10px; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                        Booking update
+                                    </div>
+                                    <div style="font-size:34px; line-height:42px; color:#ffffff; font-weight:700; letter-spacing:0.2px; margin:0; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                        Shipment notice
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- WHITE CONTENT CARD -->
+                        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#ffffff; border-radius:0 0 18px 18px;">
+                            <tr>
+                                <td style="padding:30px; background-color:#ffffff;">
+
+                                    <div style="background:#eef6fd; border-left:6px solid #3e81ba; padding:16px; color:#0377fc; font-size:14px; line-height:22px; letter-spacing:0.1px; font-family:Montserrat, Arial, Helvetica, sans-serif; margin-bottom:24px; border-radius:8px;">
+                                        <strong style="font-weight:700;">Information:</strong> Booking confirmed
+                                    </div>
+
+                                    <div style="font-size:18px; line-height:28px; color:#0f172a; font-weight:700; letter-spacing:0.1px; font-family:Montserrat, Arial, Helvetica, sans-serif; margin-bottom:11px;">
+                                        <a href="#" target="_blank" style="color:#006DB6; text-decoration:underline;">msg_Reference</a>
+                                    </div>
+
+                                    <div style="font-size:18px; line-height:28px; color:#334155; letter-spacing:0.1px; font-family:Montserrat, Arial, Helvetica, sans-serif; margin-bottom:16px;">
+                                        Dear {{ contact.firstname | default: "there" }},
+                                    </div>
+
+                                    <div style="font-size:18px; line-height:28px; color:#334155; letter-spacing:0.1px; font-family:Montserrat, Arial, Helvetica, sans-serif; margin-bottom:20px;">
+                                        Your booking for <strong>TOPU-01041992</strong> has been confirmed. You will receive a booking confirmation once space is released for your shipment.                                    </div>
+                                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; border-collapse:separate; margin-bottom:20px;">
+                                        <tr>
+                                            <td style="padding:22px;">
+                                                <div style="font-size:20px; line-height:28px; font-weight:700; color:#006DB6; letter-spacing:0.2px; margin-bottom:10px; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                                    Any changes?
+                                                </div>
+                                                <div style="font-size:17px; line-height:28px; color:#334155; letter-spacing:0.1px; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                                    msg_Details (for example: Please notify us if there are changes to your cargo specifications or ready date. This will help arrange the best possible transport plan for your shipment.
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="font-size:18px; line-height:28px; color:#334155; letter-spacing:0.1px; font-family:Montserrat, Arial, Helvetica, sans-serif; margin-bottom:26px;">
+                                        msg_WhereToFind_more_information (for example: This shipment is viewable in your account on <a href="https://my.top.nl" style="color:#006DB6;">my.top.nl</a>. You can also reply directly to this email)
+                                    </div>
+
+                                    <div style="font-size:18px; line-height:28px; color:#334155; letter-spacing:0.1px; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                        Thank you,<br>
+                                        Your <span style="color:#006DB6; font-weight:700;">TOP</span> team
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+
+            <!-- FOOTER -->
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#f3f4f6; margin-top:28px;">
+                <tr>
+                    <td align="center" style="padding:30px 20px 40px 20px;">
+                        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:760px;">
+
+                            <tr>
+                                <td width="32%" valign="top" style="padding:0 15px 20px 0;">
+                                    <div style="font-size:20px; line-height:30px; color:#006DB6; font-weight:700; margin-bottom:20px; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                        Information
+                                    </div>
+                                    <a href="https://top.nl/en-gb/aeo-certification" style="display:block; font-size:15px; line-height:25px; color:#006DB6; text-decoration:none; font-family:Montserrat, Arial, Helvetica, sans-serif;">AEO</a>
+                                    <a href="https://top.nl/en-gb/cookie-policy" style="display:block; font-size:15px; line-height:25px; color:#006DB6; text-decoration:none; font-family:Montserrat, Arial, Helvetica, sans-serif;">Cookie Policy</a>
+                                    <a href="https://top.nl/en-gb/fenex" style="display:block; font-size:15px; line-height:25px; color:#006DB6; text-decoration:none; font-family:Montserrat, Arial, Helvetica, sans-serif;">Dutch Forwarding Conditions</a>
+                                    <a href="https://top.nl/en-gb/privacy-policy" style="display:block; font-size:15px; line-height:25px; color:#006DB6; text-decoration:none; font-family:Montserrat, Arial, Helvetica, sans-serif;">Privacy Policy</a>
+                                    <a href="https://top.nl/en-gb/terms-and-conditions" style="display:block; font-size:15px; line-height:25px; color:#006DB6; text-decoration:none; font-family:Montserrat, Arial, Helvetica, sans-serif;">Terms &amp; Conditions</a>
+                                </td>
+
+                                <td width="34%" valign="top" style="padding:0 15px 20px 15px;">
+                                    <div style="font-size:20px; line-height:30px; color:#006DB6; font-weight:700; margin-bottom:20px; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                        Contact
+                                    </div>
+                                    <div style="font-size:15px; line-height:25px; color:#006DB6; font-family:Montserrat, Arial, Helvetica, sans-serif; white-space:nowrap;">
+                                        Van Riemsdijkweg 78<br>
+                                        3088HD Rotterdam
+                                    </div>
+                                    <a href="tel:+31102831900" style="display:block; font-size:15px; line-height:25px; color:#006DB6; text-decoration:none; font-family:Montserrat, Arial, Helvetica, sans-serif; white-space:nowrap;">+31 (10) 283 1900</a>
+                                    <a href="mailto:top@top.nl" style="display:block; font-size:15px; line-height:25px; color:#006DB6; text-decoration:none; font-family:Montserrat, Arial, Helvetica, sans-serif; white-space:nowrap;">top@top.nl</a>
+                                </td>
+
+                                <td width="34%" valign="top" style="padding:0 0 20px 15px;">
+                                    <div style="font-size:20px; line-height:30px; color:#006DB6; font-weight:700; margin-bottom:20px; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                        Follow us
+                                    </div>
+
+                                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td style="padding-right:8px;">
+                                                <a href="https://www.linkedin.com/company/trans-ocean-pacific-forwarding-b-v-/" target="_blank">
+                                                    <img src="https://146841274.fs1.hubspotusercontent-eu1.net/hubfs/146841274/linkedin_3670022.png" width="34" height="34" alt="LinkedIn" style="display:block; border:0;">
+                                                </a>
+                                            </td>
+                                            <td style="padding-right:8px;">
+                                                <a href="https://www.youtube.com/@TOPTransOceanPacificRott-ks2mx" target="_blank">
+                                                    <img src="https://146841274.fs1.hubspotusercontent-eu1.net/hubfs/146841274/social_15707839.png" width="34" height="34" alt="YouTube" style="display:block; border:0;">
+                                                </a>
+                                            </td>
+                                            <td style="padding-right:8px;">
+                                                <a href="https://www.instagram.com/transoceanpacific/" target="_blank">
+                                                    <img src="https://146841274.fs1.hubspotusercontent-eu1.net/hubfs/146841274/instagram_2175198.png" width="34" height="34" alt="Instagram" style="display:block; border:0;">
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="https://www.facebook.com/TransOceanPacificForwarding/" target="_blank">
+                                                    <img src="https://146841274.fs1.hubspotusercontent-eu1.net/hubfs/146841274/social_15707770.png" width="34" height="34" alt="Facebook" style="display:block; border:0;">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="3" style="padding-top:10px;">
+                                    <div style="border-top:1px solid #1f2937; height:1px; line-height:1px; font-size:1px;">&nbsp;</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="3" align="center" style="padding-top:20px;">
+                                    <div style="font-size:14px; line-height:22px; color:#006DB6; font-family:Montserrat, Arial, Helvetica, sans-serif;">
+                                        © 2026 | Trans Ocean Pacific forwarding B.V.
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+</body>
+</html>
